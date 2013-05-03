@@ -11,8 +11,6 @@ ARCH_ARM_HAVE_VFP := true
 TARGET_HAVE_TSLIB := true
 BOARD_WANTS_EMMC_BOOT := true
 
-#TARGET_QCOM_DISPLAY_VARIANT := caf
-#TARGET_QCOM_AUDIO_VARIANT := caf
 
 TARGET_BOARD_PLATFORM := msm7x30
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno200
@@ -122,7 +120,7 @@ TARGET_RECOVERY_INITRC := device/huawei/msm7x30-common/recovery/recovery.rc
 TARGET_RECOVERY_FSTAB := device/huawei/msm7x30-common/recovery_recovery.fstab
 BOARD_RECOVERY_RMT_STORAGE := true
 #BOARD_CUSTOM_GRAPHICS := ../../../device/huawei/msm7x30-common/recovery/graphics_cn.c
-TARGET_PREBUILT_RECOVERY_KERNEL := device/huawei/msm7x30-common/recovery_kernel
+#TARGET_PREBUILT_RECOVERY_KERNEL := device/huawei/msm7x30-common/recovery_kernel
 
 # Custom releasetools for old partition table.
 TARGET_PROVIDES_RELEASETOOLS := true
