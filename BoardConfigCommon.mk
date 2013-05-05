@@ -78,7 +78,7 @@ WIFI_DRIVER_MODULE_PATH          := "/system/lib/modules/bcm4329.ko"
 WIFI_DRIVER_FW_PATH_STA          := "/system/vendor/firmware/fw_bcm4329.bin"
 WIFI_DRIVER_FW_PATH_AP           := "/system/vendor/firmware/fw_bcm4329_apsta.bin"
 WIFI_DRIVER_MODULE_ARG           := "firmware_path=/system/vendor/firmware/fw_bcm4329.bin nvram_path=/system/vendor/firmware/nvram.txt"
-BOARD_USE_SERNUM_FOR_MAC := true
+BOARD_HAVE_HUAWEI_WIFI := true
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
